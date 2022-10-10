@@ -34,5 +34,6 @@ public class User extends BaseEntity {
     private String phoneNumber;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "type")
     private UserType userType;
 }
